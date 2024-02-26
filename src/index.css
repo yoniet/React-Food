@@ -50,6 +50,25 @@ h1 {
   text-transform: uppercase;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: pink;
+  width: 300px;
+  height: 140px;
+  color: #1f1a09;
+  border-radius: 12px;
+  padding: 20px;
+}
+
 #meals {
   width: 90%;
   max-width: 70rem;
